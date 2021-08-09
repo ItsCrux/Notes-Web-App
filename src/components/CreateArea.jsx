@@ -36,6 +36,7 @@ function CreateArea(props) {
           onClick={(e) => {
             props.onAdd(note, e);
             setNote({title:"",content:""});
+            setIsExpanded(false);
           }}
         >
           <AddIcon />
