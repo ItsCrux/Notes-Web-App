@@ -4,7 +4,7 @@ function Footer()
 {
 const date = new Date();
 const dynamicYear = date.getFullYear();
-return <footer><p>Copyright ⓒ Naseh Salman {dynamicYear}</p></footer>;
+return <footer><p>Copyright ⓒ {dynamicYear}</p></footer>;
 }
 
  export default Footer;
